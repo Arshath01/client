@@ -76,7 +76,7 @@ class App extends React.Component{
                     value={this.state.password}
                     name='password'
                     className='form-control m-5 w-50' 
-                    placeholder='Enter the password...' />
+                    placeholder='Enter the password....' />
 
                 <button 
                     className='btn btn-primary ms-5' 
