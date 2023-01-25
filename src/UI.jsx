@@ -22,7 +22,7 @@ class App extends React.Component{
         const {username,password} = this.state;
 
         // fetch API for making http Request
-        fetch('https://Arshath01.github.io/client', {
+        fetch('http://localhost:3001/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -55,7 +55,7 @@ class App extends React.Component{
                                     className='btn btn-sm btn-danger rounded' 
                                     style={{float:'right'}} 
                                     onClick={this.handleClose}>
-                                        <span aria-hidden='true'>&times;</span>
+                                    <span aria-hidden='true'>&times;</span>
                                 </button>
                             </p>
                         </div>
